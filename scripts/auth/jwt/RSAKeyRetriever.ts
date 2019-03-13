@@ -1,9 +1,9 @@
 const jwksRsa = require("jwks-rsa");
 import { inject, injectable } from "inversify";
+import { UnauthorizedException } from "signs-js";
 
 import { IAuthConfig } from "../IAuthConfig";
 import { IRSAKeyRetriever } from "./IRSAKeyRetriever";
-import { UnauthorizedException } from "../../engine/Exception";
 
 @injectable()
 export class RSAKeyRetriever implements IRSAKeyRetriever {

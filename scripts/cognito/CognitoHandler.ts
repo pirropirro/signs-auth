@@ -1,5 +1,5 @@
+import { UnauthorizedException } from 'signs-js';
 import { IAuthenticationCallback, CognitoUser, CognitoUserPool, CognitoUserSession } from 'amazon-cognito-identity-js';
-import { UnauthorizedException } from '../engine/Exception';
 
 
 type CognitoAction<T extends any[]> = (...args: T) => void;
@@ -35,11 +35,5 @@ export class CognitoHandler implements IAuthenticationCallback {
     }
     onFailure(err: any): void {
         this.reject(new UnauthorizedException(err.message))
-    }
-
-    newPasswordRequired(userAttributes: any, requiredAttributes: any): void {
-        let att = {};
-        requiredAttributes.forEach(k => att[k] = "a");
-        this.user.completeNewPasswordChallenge("Test123!!!!", att, this)
     }
 }
