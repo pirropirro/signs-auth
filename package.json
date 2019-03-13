@@ -1,6 +1,6 @@
 {
   "name": "signs-auth",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Auth module for Signs.js",
   "main": "dist",
   "scripts": {
