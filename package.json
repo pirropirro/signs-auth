@@ -1,6 +1,6 @@
 {
   "name": "signs-auth",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Auth module for Signs.js",
   "main": "dist",
   "scripts": {
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/pirropirro/signs-auth#readme",
   "devDependencies": {
     "@types/jsonwebtoken": "^8.3.0",
-    "signs-js": "0.0.5",
+    "signs-js": "0.1.0",
     "typescript": "^3.0.3"
   },
   "dependencies": {
