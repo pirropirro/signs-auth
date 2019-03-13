@@ -1,2 +1,3 @@
 # signs-auth
-Auth module for Signs.js
+
+## Auth module for Signs.js
