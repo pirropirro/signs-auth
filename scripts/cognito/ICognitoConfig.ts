@@ -1,5 +1,6 @@
 export interface ICognitoConfig {
-    userPoolId: string,
-    clientId: string,
+    userPoolId: string;
+    clientId: string;
+    clientSecret: string;
     domain: string;
 }
