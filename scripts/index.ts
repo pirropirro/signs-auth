@@ -8,3 +8,5 @@ export { IJWTService } from "./auth/jwt/IJWTService";
 export { IRSAKeyRetriever } from "./auth/jwt/IRSAKeyRetriever";
 
 export { ITokenService } from "./auth/token/ITokenService";
+
+export { AuthNetModule } from "./auth/AuthNetModule";
