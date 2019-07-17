@@ -18,8 +18,8 @@
   "homepage": "https://github.com/pirropirro/signs-auth#readme",
   "devDependencies": {
     "@types/jsonwebtoken": "^8.3.0",
-    "signs-js": "0.1.2",
-    "signs-net": "0.1.0",
+    "signs-js": "0.1.4",
+    "signs-net": "0.1.2",
     "typescript": "^3.0.3"
   },
   "dependencies": {
